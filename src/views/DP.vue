@@ -4,8 +4,8 @@
   <div class="p-text-left p-grid start">
     <div class="p-col-12 p-md-6 p-lg-3" style="text-aligh:center">
       <p>dp[0][j] = 0</p>
-      <p>dp[i+1][j] = dp[i][j] (j &lt; w[i])</p>
-      <p>dp[i+1][j] = max(dp[i][j], dp[i][j-対象の重さw[i]] + value)</p>
+      <p>dp[i+1][j] = dp[i][j] (j &lt; nup[i].w)</p>
+      <p>dp[i+1][j] = max(dp[i][j], dp[i][j-nup[i].w] + nup[i].v)</p>
     </div>
   </div>
 
